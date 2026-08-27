@@ -386,6 +386,157 @@
   }
 }
 
+ /* =========================
+   AVIS CLIENTES
+========================= */
+
+.reviews {
+  background: var(--ivoire);
+  padding: 95px 24px;
+  overflow: hidden;
+}
+
+.reviews-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.reviews-header {
+  margin-bottom: 55px;
+}
+
+.reviews h2 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(2.8rem, 11vw, 5.5rem);
+  font-weight: 500;
+  line-height: 0.95;
+}
+
+.reviews-slider {
+  position: relative;
+}
+
+.reviews-window {
+  overflow: hidden;
+}
+
+.reviews-track {
+  display: flex;
+  transition: transform 0.6s ease;
+}
+
+.review-card {
+  flex: 0 0 100%;
+  padding: 38px 28px;
+  background: var(--blanc-chaud);
+  border: 1px solid var(--beige-rose);
+}
+
+.review-stars {
+  margin-bottom: 25px;
+  color: var(--bordeaux);
+  font-size: 0.85rem;
+  letter-spacing: 0.18em;
+}
+
+.review-card p {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.45rem;
+  line-height: 1.35;
+  font-weight: 500;
+}
+
+.review-author {
+  display: block;
+  margin-top: 30px;
+  padding-top: 20px;
+
+  border-top: 1px solid var(--beige-rose);
+
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.review-arrow {
+  position: absolute;
+  z-index: 5;
+  top: 50%;
+  transform: translateY(-50%);
+
+  width: 42px;
+  height: 42px;
+
+  border: none;
+  border-radius: 50%;
+
+  background: var(--bordeaux);
+  color: white;
+
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.review-prev {
+  left: -10px;
+}
+
+.review-next {
+  right: -10px;
+}
+
+.reviews-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 28px;
+}
+
+.review-dot {
+  width: 7px;
+  height: 7px;
+
+  border: none;
+  border-radius: 50%;
+
+  background: var(--beige-rose);
+}
+
+.review-dot.active {
+  background: var(--bordeaux);
+}
+
+
+@media (min-width: 768px) {
+
+  .reviews {
+    padding: 140px 7vw;
+  }
+
+  .reviews-header {
+    max-width: 700px;
+    margin-bottom: 75px;
+  }
+
+  .review-card {
+    flex: 0 0 50%;
+    padding: 48px 40px;
+  }
+
+  .review-card p {
+    font-size: 1.6rem;
+  }
+
+  .review-prev {
+    left: -22px;
+  }
+
+  .review-next {
+    right: -22px;
+  }
+
+}   
     /* =========================
        CONTACT
     ========================= */
@@ -836,6 +987,144 @@
 </section>
 
     <!-- =====================
+     AVIS CLIENTES
+====================== -->
+
+<section class="reviews" id="avis">
+
+  <div class="reviews-inner">
+
+    <div class="reviews-header">
+      <span class="section-label">Vos mots</span>
+
+      <h2>
+        Elles en parlent<br>
+        mieux que nous.
+      </h2>
+    </div>
+
+
+    <div class="reviews-slider">
+
+      <button class="review-arrow review-prev" aria-label="Avis précédents">
+        &#8592;
+      </button>
+
+
+      <div class="reviews-window">
+
+        <div class="reviews-track">
+
+
+          <article class="review-card">
+            <div class="review-stars">★★★★★</div>
+
+            <p>
+              « Très belle expérience. Le soin était à la fois tonique
+              et très agréable, avec beaucoup de douceur et de
+              professionnalisme. Je recommande sans hésiter. »
+            </p>
+
+            <span class="review-author">
+              Sophie — Claye-Souilly
+            </span>
+          </article>
+
+
+          <article class="review-card">
+            <div class="review-stars">★★★★★</div>
+
+            <p>
+              « J’ai beaucoup apprécié le fait que la prestation se fasse
+              directement à domicile. Tout était très bien organisé,
+              ponctuel et professionnel. Un vrai moment pour soi. »
+            </p>
+
+            <span class="review-author">
+              Mélanie — Mitry-Mory
+            </span>
+          </article>
+
+
+          <article class="review-card">
+            <div class="review-stars">★★★★★</div>
+
+            <p>
+              « Première séance de drainage et très bonne expérience.
+              Les gestes sont précis, le soin est personnalisé et l’on
+              se sent vraiment accompagnée du début à la fin. »
+            </p>
+
+            <span class="review-author">
+              Laura — Villeparisis
+            </span>
+          </article>
+
+
+          <article class="review-card">
+            <div class="review-stars">★★★★★</div>
+
+            <p>
+              « Séance de madérothérapie très agréable. J’ai
+              particulièrement apprécié les explications, l’attention
+              portée au confort et l’ambiance très professionnelle. »
+            </p>
+
+            <span class="review-author">
+              Nathalie — Claye-Souilly
+            </span>
+          </article>
+
+
+          <article class="review-card">
+            <div class="review-stars">★★★★★</div>
+
+            <p>
+              « J’ai testé le Kobido et j’ai adoré. Le massage est à la
+              fois dynamique et relaxant. Une très belle découverte que
+              je referai avec plaisir. »
+            </p>
+
+            <span class="review-author">
+              Élodie — Mitry-Mory
+            </span>
+          </article>
+
+
+          <article class="review-card">
+            <div class="review-stars">★★★★★</div>
+
+            <p>
+              « Une praticienne douce, attentive et très professionnelle.
+              Le fait de pouvoir recevoir le soin chez soi est un vrai
+              plus. Je recommande Lily Drainage Paris. »
+            </p>
+
+            <span class="review-author">
+              Camille — Messy
+            </span>
+          </article>
+
+
+        </div>
+
+      </div>
+
+
+      <button class="review-arrow review-next" aria-label="Avis suivants">
+        &#8594;
+      </button>
+
+    </div>
+
+
+    <div class="reviews-dots"></div>
+
+  </div>
+
+</section>
+
+    <!-- =====================
          5. CONTACT
     ====================== -->
 
@@ -885,4 +1174,130 @@
 
 </html>
 
-google-site-verification: google5b476ed3fe0b0edd.html
+<script>
+
+  const track = document.querySelector(".reviews-track");
+  const cards = document.querySelectorAll(".review-card");
+  const prevButton = document.querySelector(".review-prev");
+  const nextButton = document.querySelector(".review-next");
+  const dotsContainer = document.querySelector(".reviews-dots");
+
+  let currentIndex = 0;
+  let autoSlide;
+
+
+  function visibleCards() {
+    return window.innerWidth >= 768 ? 2 : 1;
+  }
+
+
+  function totalPages() {
+    return Math.ceil(cards.length / visibleCards());
+  }
+
+
+  function createDots() {
+
+    dotsContainer.innerHTML = "";
+
+    for (let i = 0; i < totalPages(); i++) {
+
+      const dot = document.createElement("button");
+
+      dot.classList.add("review-dot");
+
+      if (i === currentIndex) {
+        dot.classList.add("active");
+      }
+
+      dot.addEventListener("click", () => {
+        currentIndex = i;
+        updateSlider();
+        restartAutoSlide();
+      });
+
+      dotsContainer.appendChild(dot);
+    }
+  }
+
+
+  function updateSlider() {
+
+    const cardsVisible = visibleCards();
+
+    track.style.transform =
+      `translateX(-${currentIndex * (100 / cardsVisible) * cardsVisible}%)`;
+
+    document.querySelectorAll(".review-dot").forEach((dot, index) => {
+      dot.classList.toggle("active", index === currentIndex);
+    });
+
+  }
+
+
+  function nextSlide() {
+
+    currentIndex++;
+
+    if (currentIndex >= totalPages()) {
+      currentIndex = 0;
+    }
+
+    updateSlider();
+  }
+
+
+  function previousSlide() {
+
+    currentIndex--;
+
+    if (currentIndex < 0) {
+      currentIndex = totalPages() - 1;
+    }
+
+    updateSlider();
+  }
+
+
+  function startAutoSlide() {
+
+    autoSlide = setInterval(nextSlide, 5500);
+
+  }
+
+
+  function restartAutoSlide() {
+
+    clearInterval(autoSlide);
+    startAutoSlide();
+
+  }
+
+
+  nextButton.addEventListener("click", () => {
+    nextSlide();
+    restartAutoSlide();
+  });
+
+
+  prevButton.addEventListener("click", () => {
+    previousSlide();
+    restartAutoSlide();
+  });
+
+
+  window.addEventListener("resize", () => {
+
+    currentIndex = 0;
+
+    createDots();
+    updateSlider();
+
+  });
+
+
+  createDots();
+  updateSlider();
+  startAutoSlide();
+
+</script>
