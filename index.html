@@ -99,7 +99,35 @@
       width: 100%;
       padding: 48px 24px 42px;
     }
+.hero-nav {
+  display: flex;
+  gap: 22px;
+  margin-bottom: 28px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
 
+.hero-nav a {
+  color: var(--espresso);
+  text-decoration: none;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.hero-nav a:hover {
+  color: var(--bordeaux);
+}
+
+@media (min-width: 768px) {
+  .hero-nav {
+    position: absolute;
+    top: 0;
+    right: 7vw;
+    margin-bottom: 0;
+  }
+}
     .brand {
       margin-bottom: 26px;
     }
@@ -244,6 +272,21 @@
       opacity: 0.72;
     }
 
+.service-link {
+  display: inline-block;
+  margin-top: 22px;
+  color: var(--bordeaux);
+  text-decoration: none;
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.service-link:hover {
+  opacity: 0.7;
+}
+    
     .service-text-only {
       padding: 70px 0;
     }
@@ -787,7 +830,14 @@
 
       <div class="hero-content">
 
-        <div class="brand">
+  <nav class="hero-nav" aria-label="Navigation principale">
+    <a href="/drainage-lymphatique/">Accueil</a>
+    <a href="/drainage-lymphatique/drainage-lymphatique-bresilien/">
+      Drainage brésilien
+    </a>
+  </nav>
+
+  <div class="brand">
           <span class="brand-lily">LILY</span>
           <span class="brand-paris">Drainage Paris</span>
         </div>
@@ -861,6 +911,13 @@
               Un massage manuel dynamique du corps, réalisé selon
               un protocole de bien-être personnalisé.
             </p>
+
+            <a
+  class="service-link"
+  href="/drainage-lymphatique/drainage-lymphatique-bresilien/"
+>
+  Découvrir le drainage brésilien →
+</a>
 
           </div>
 
