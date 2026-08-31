@@ -105,35 +105,47 @@
     }
 
     .hero-nav {
-      display: flex;
-      gap: 22px;
-      margin-bottom: 28px;
-      overflow-x: auto;
-      white-space: nowrap;
-    }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px 16px;
+  margin-bottom: 28px;
+  white-space: normal;
+  overflow: visible;
+}
 
-    .hero-nav a {
-      color: #F7F3ED;
-      text-decoration: none;
-      font-size: 0.72rem;
-      font-weight: 700;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      text-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
-    }
+.hero-nav a {
+  color: #F7F3ED;
+  text-decoration: none;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
+}
 
-    .hero-nav a:hover {
-      color: #FFFFFF;
-    }
+.hero-nav a:hover {
+  color: #FFFFFF;
+}
 
-    @media (min-width: 768px) {
-      .hero-nav {
-        position: absolute;
-        top: 0;
-        right: 7vw;
-        margin-bottom: 0;
-      }
-    }
+@media (min-width: 768px) {
+  .hero-nav {
+    position: absolute;
+    top: 0;
+    right: 7vw;
+    margin-bottom: 0;
+
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    gap: 22px;
+    white-space: nowrap;
+  }
+
+  .hero-nav a {
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+  }
+}
 
     .brand {
   margin-bottom: 26px;
@@ -917,21 +929,25 @@
 
         <nav class="hero-nav">
 
-          <a href="/">Accueil</a>
+  <a href="/">Accueil</a>
 
-          <a href="/drainage-lymphatique-bresilien/">
-            Drainage brésilien
-          </a>
+  <a href="/drainage-lymphatique-bresilien/">
+    Drainage brésilien
+  </a>
 
-          <a href="/maderotherapie/">
-            Madérothérapie
-          </a>
+  <a href="/maderotherapie/">
+    Madérothérapie
+  </a>
 
-          <a href="/kobido/">
-            Kobido
-          </a>
+  <a href="/kobido/">
+    Kobido
+  </a>
 
-        </nav>
+  <a href="/deep-release/">
+    Deep Release
+  </a>
+
+</nav>
 
         <div class="brand">
 
@@ -1131,6 +1147,43 @@
 
         </article>
 
+<!-- 05 - DEEP RELEASE -->
+
+<article class="service">
+
+  <img
+    class="service-image"
+    src="CE25CED4-3263-415A-A9C6-B705254B13AC.png"
+    alt="Massage Deep Release du dos, des trapèzes et de la nuque à domicile"
+    loading="lazy"
+  >
+
+  <div class="service-content">
+
+    <span class="service-number">
+      05
+    </span>
+
+    <h3>
+      Deep Release
+    </h3>
+
+    <p>
+      Un massage profond et ciblé du dos, des trapèzes et de la nuque,
+      pensé pour libérer les tensions et favoriser un relâchement intense.
+    </p>
+
+    <a
+      class="service-link"
+      href="/deep-release/"
+    >
+      Découvrir le Deep Release →
+    </a>
+
+  </div>
+
+</article>
+        
       </div>
 
     </section>
