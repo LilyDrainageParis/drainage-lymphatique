@@ -150,15 +150,30 @@
       text-shadow: 0 2px 8px rgba(0, 0, 0, 0.22);
     }
 
-    .brand-paris {
-  display: block;
-  margin-top: 12px;
-  font-size: 0.9rem;
-  font-weight: 600;
-  letter-spacing: 0.34em;
-  text-transform: uppercase;
+   .brand-paris {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 14px;
+
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.45rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  text-transform: none;
+
   color: #F7F3ED;
-  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.28);
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.22);
+}
+
+.brand-paris::before,
+.brand-paris::after {
+  content: "";
+  display: block;
+  width: 42px;
+  height: 1px;
+  background: rgba(247, 243, 237, 0.75);
 }
 
     .hero h1 {
