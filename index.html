@@ -1,38 +1,43 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Lily Drainage Paris | Drainage lymphatique à domicile</title>
+  <title>Lily Drainage Paris | Drainage et massages à domicile 77</title>
 
   <meta
     name="description"
-    content="Drainage lymphatique et massages bien-être à domicile. Prestations à partir de 50 €."
+    content="Drainage lymphatique brésilien, madérothérapie signature, Kobido, Deep Release et Cupping Therapy à domicile en Seine-et-Marne (77). Soins dès 40 €, hors frais de déplacement."
   >
 
-  <link
-    rel="canonical"
-    href="https://lilydrainageparis.fr/"
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://lilydrainageparis.fr/">
+
+  <meta property="og:title" content="Lily Drainage Paris | Soins à domicile en Seine-et-Marne">
+  <meta
+    property="og:description"
+    content="Drainage brésilien, madérothérapie signature, Kobido, Deep Release et Cupping Therapy. Des soins personnalisés à domicile, dès 40 €, hors frais de déplacement."
   >
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://lilydrainageparis.fr/">
+  <meta
+    property="og:image"
+    content="https://lilydrainageparis.fr/4621B231-9788-4C52-A979-579DAAB08C68.png"
+  >
+  <meta name="theme-color" content="#F7F3ED">
 
   <!-- TYPOGRAPHIES -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   <link
-    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Manrope:wght@400;500;600&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Manrope:wght@400;500;600;700&display=swap"
     rel="stylesheet"
   >
 
   <style>
-
-    /* =========================
-       COULEURS
-    ========================= */
-
+    /* COULEURS */
     :root {
       --ivoire: #F7F3ED;
       --blanc-chaud: #FFFCF8;
@@ -41,11 +46,7 @@
       --beige-rose: #DCCBC2;
     }
 
-
-    /* =========================
-       BASE
-    ========================= */
-
+    /* BASE */
     * {
       margin: 0;
       padding: 0;
@@ -62,11 +63,7 @@
       background: var(--ivoire);
     }
 
-
-    /* =========================
-       HERO
-    ========================= */
-
+    /* HERO */
     .hero {
       position: relative;
       min-height: 100svh;
@@ -87,7 +84,6 @@
     .hero-overlay {
       position: absolute;
       inset: 0;
-
       background: linear-gradient(
         to top,
         rgba(247, 243, 237, 0.98) 0%,
@@ -105,106 +101,81 @@
     }
 
     .hero-nav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px 16px;
-  margin-bottom: 28px;
-  white-space: normal;
-  overflow: visible;
-}
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px 16px;
+      margin-bottom: 28px;
+      white-space: normal;
+      overflow: visible;
+    }
 
-.hero-nav a {
-  color: #F7F3ED;
-  text-decoration: none;
-  font-size: 0.68rem;
-  font-weight: 700;
-  letter-spacing: 0.07em;
-  text-transform: uppercase;
-  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
-}
+    .hero-nav a {
+      color: #F7F3ED;
+      text-decoration: none;
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      text-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
+    }
 
-.hero-nav a:hover {
-  color: #FFFFFF;
-}
-
-@media (min-width: 768px) {
-  .hero-nav {
-    position: absolute;
-    top: 0;
-    right: 7vw;
-    margin-bottom: 0;
-
-    flex-wrap: nowrap;
-    justify-content: flex-end;
-    gap: 22px;
-    white-space: nowrap;
-  }
-
-  .hero-nav a {
-    font-size: 0.72rem;
-    letter-spacing: 0.08em;
-  }
-}
+    .hero-nav a:hover {
+      color: #FFFFFF;
+    }
 
     .brand {
-  margin-bottom: 26px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: fit-content;
-}
+      margin-bottom: 26px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: fit-content;
+    }
 
-.brand-lily {
-  display: block;
-  font-family: "Cormorant Garamond", serif;
-  font-size: clamp(3.8rem, 16vw, 7rem);
-  font-weight: 600;
-  line-height: 0.8;
-  letter-spacing: 0.05em;
-  color: #F7F3ED;
+    .brand-lily {
+      display: block;
+      font-family: "Cormorant Garamond", serif;
+      font-size: clamp(3.8rem, 16vw, 7rem);
+      font-weight: 600;
+      line-height: 0.8;
+      letter-spacing: 0.05em;
+      color: #F7F3ED;
+      text-shadow:
+        0 -1px 0 rgba(255, 255, 255, 0.75),
+        0 1px 0 rgba(110, 85, 65, 0.55),
+        0 3px 3px rgba(50, 35, 25, 0.35),
+        0 7px 12px rgba(30, 20, 15, 0.28);
+    }
 
-  /* Effet relief */
-  text-shadow:
-    0 -1px 0 rgba(255, 255, 255, 0.75),
-    0 1px 0 rgba(110, 85, 65, 0.55),
-    0 3px 3px rgba(50, 35, 25, 0.35),
-    0 7px 12px rgba(30, 20, 15, 0.28);
-}
+    .brand-paris {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      margin-top: 18px;
+      font-family: "Cormorant Garamond", serif;
+      font-size: 1.15rem;
+      font-weight: 500;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: #F7F3ED;
+      white-space: nowrap;
+      text-shadow:
+        0 -1px 0 rgba(255, 255, 255, 0.65),
+        0 1px 0 rgba(110, 85, 65, 0.45),
+        0 2px 2px rgba(50, 35, 25, 0.32),
+        0 4px 7px rgba(30, 20, 15, 0.24);
+    }
 
-.brand-paris {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 14px;
-  margin-top: 18px;
-
-  font-family: "Cormorant Garamond", serif;
-  font-size: 1.15rem;
-  font-weight: 500;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-
-  color: #F7F3ED;
-  white-space: nowrap;
-
-  /* Relief plus délicat que LILY */
-  text-shadow:
-    0 -1px 0 rgba(255, 255, 255, 0.65),
-    0 1px 0 rgba(110, 85, 65, 0.45),
-    0 2px 2px rgba(50, 35, 25, 0.32),
-    0 4px 7px rgba(30, 20, 15, 0.24);
-}
-
-.brand-paris::before,
-.brand-paris::after {
-  content: "";
-  display: block;
-  width: 36px;
-  height: 1px;
-  background: rgba(247, 243, 237, 0.75);
-  box-shadow: 0 2px 3px rgba(30, 20, 15, 0.25);
-}
+    .brand-paris::before,
+    .brand-paris::after {
+      content: "";
+      display: block;
+      width: 36px;
+      height: 1px;
+      background: rgba(247, 243, 237, 0.75);
+      box-shadow: 0 2px 3px rgba(30, 20, 15, 0.25);
+    }
 
     .hero h1 {
       max-width: 650px;
@@ -227,6 +198,12 @@
       color: var(--bordeaux);
       font-size: 1.7rem;
       font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    .hero-price-note {
+      font-size: 0.76rem;
+      line-height: 1.6;
       margin-bottom: 22px;
     }
 
@@ -245,11 +222,7 @@
       font-weight: 600;
     }
 
-
-    /* =========================
-       PRESTATIONS
-    ========================= */
-
+    /* PRESTATIONS */
     .services {
       background: var(--blanc-chaud);
       padding: 90px 24px;
@@ -315,6 +288,15 @@
       line-height: 1.8;
     }
 
+    .service .service-price {
+      margin-top: 18px;
+      color: var(--bordeaux);
+      font-family: "Cormorant Garamond", serif;
+      font-size: 1.8rem;
+      font-weight: 600;
+      line-height: 1.3;
+    }
+
     .service-note {
       margin-top: 14px;
       font-size: 0.74rem !important;
@@ -337,15 +319,7 @@
       opacity: 0.7;
     }
 
-    .service-text-only {
-      padding: 70px 0;
-    }
-
-
-    /* =========================
-       À DOMICILE
-    ========================= */
-
+    /* À DOMICILE */
     .home-service {
       background: var(--ivoire);
       padding: 90px 24px;
@@ -398,11 +372,7 @@
       opacity: 0.7;
     }
 
-
-    /* =========================
-       À PROPOS
-    ========================= */
-
+    /* À PROPOS */
     .about {
       background: var(--bordeaux);
       color: var(--ivoire);
@@ -460,30 +430,7 @@
       opacity: 0.75;
     }
 
-    @media (min-width: 768px) {
-
-      .about {
-        padding: 140px 7vw;
-      }
-
-      .about-inner {
-        display: grid;
-        grid-template-columns: 0.8fr 1.2fr;
-        gap: 8vw;
-        align-items: center;
-      }
-
-      .about-photo-wrap {
-        margin-bottom: 0;
-      }
-
-    }
-
-
-    /* =========================
-       AVIS CLIENTES
-    ========================= */
-
+    /* AVIS CLIENTES */
     .reviews {
       background: var(--ivoire);
       padding: 95px 24px;
@@ -587,47 +534,14 @@
       border: none;
       border-radius: 50%;
       background: var(--beige-rose);
+      cursor: pointer;
     }
 
     .review-dot.active {
       background: var(--bordeaux);
     }
 
-    @media (min-width: 768px) {
-
-      .reviews {
-        padding: 140px 7vw;
-      }
-
-      .reviews-header {
-        max-width: 700px;
-        margin-bottom: 75px;
-      }
-
-      .review-card {
-        flex: 0 0 50%;
-        padding: 48px 40px;
-      }
-
-      .review-card p {
-        font-size: 1.6rem;
-      }
-
-      .review-prev {
-        left: -22px;
-      }
-
-      .review-next {
-        right: -22px;
-      }
-
-    }
-
-
-    /* =========================
-       CONTACT
-    ========================= */
-
+    /* CONTACT */
     .contact {
       background: var(--blanc-chaud);
       padding: 100px 24px;
@@ -655,11 +569,23 @@
     }
 
     .contact-price {
-      margin-bottom: 30px;
+      margin-bottom: 12px;
       font-family: "Cormorant Garamond", serif;
       color: var(--bordeaux);
       font-size: 1.8rem;
       font-weight: 600;
+    }
+
+    .contact-note {
+      margin-bottom: 26px;
+      font-size: 0.76rem;
+      line-height: 1.6;
+    }
+
+    .contact-hours {
+      margin: 0 auto 28px;
+      font-size: 0.86rem;
+      line-height: 1.8;
     }
 
     .contact-button {
@@ -684,11 +610,7 @@
       opacity: 0.6;
     }
 
-
-    /* =========================
-       FOOTER
-    ========================= */
-
+    /* FOOTER */
     .footer {
       background: var(--espresso);
       color: var(--ivoire);
@@ -725,10 +647,29 @@
 
     .footer-location {
       max-width: 420px;
-      margin-bottom: 45px;
+      margin-bottom: 28px;
       font-size: 0.78rem;
       line-height: 1.7;
       opacity: 0.72;
+    }
+
+    .footer-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px 22px;
+      margin-bottom: 45px;
+      font-size: 0.78rem;
+      line-height: 1.7;
+    }
+
+    .footer-nav a {
+      color: var(--ivoire);
+      text-decoration: none;
+    }
+
+    .footer-nav a:hover {
+      text-decoration: underline;
+      text-underline-offset: 4px;
     }
 
     .footer-bottom {
@@ -751,33 +692,30 @@
       text-decoration: underline;
     }
 
+    /* TABLETTE / ORDINATEUR */
     @media (min-width: 768px) {
-
-      .footer {
-        padding: 75px 7vw 35px;
-      }
-
-      .footer-bottom {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-      }
-
-    }
-
-
-    /* =========================
-       TABLETTE / ORDINATEUR
-    ========================= */
-
-    @media (min-width: 768px) {
-
       .hero {
         align-items: center;
       }
 
       .hero-content {
         padding: 70px 7vw;
+      }
+
+      .hero-nav {
+        position: absolute;
+        top: 0;
+        right: 7vw;
+        left: 7vw;
+        margin-bottom: 0;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 12px 22px;
+      }
+
+      .hero-nav a {
+        font-size: 0.72rem;
+        letter-spacing: 0.08em;
       }
 
       .services {
@@ -804,13 +742,6 @@
         order: 1;
       }
 
-      .service-text-only {
-        grid-template-columns: 1fr;
-        max-width: 760px;
-        margin-left: auto;
-        padding: 90px 0;
-      }
-
       .home-service {
         padding: 130px 7vw;
       }
@@ -830,9 +761,46 @@
         padding: 140px 7vw;
       }
 
+      .about-inner {
+        display: grid;
+        grid-template-columns: 0.8fr 1.2fr;
+        gap: 8vw;
+        align-items: center;
+      }
+
+      .about-photo-wrap {
+        margin-bottom: 0;
+      }
+
       .about-main,
       .about-note {
         margin-left: 25%;
+      }
+
+      .reviews {
+        padding: 140px 7vw;
+      }
+
+      .reviews-header {
+        max-width: 700px;
+        margin-bottom: 75px;
+      }
+
+      .review-card {
+        flex: 0 0 50%;
+        padding: 48px 40px;
+      }
+
+      .review-card p {
+        font-size: 1.6rem;
+      }
+
+      .review-prev {
+        left: -22px;
+      }
+
+      .review-next {
+        right: -22px;
       }
 
       .contact {
@@ -844,11 +812,19 @@
         opacity: 0.88;
       }
 
-    }
+      .footer {
+        padding: 75px 7vw 35px;
+      }
 
+      .footer-bottom {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
   </style>
 
-
+  <!-- DONNÉES STRUCTURÉES -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -859,7 +835,7 @@
     "telephone": "+33602743757",
     "priceRange": "€€",
     "image": "https://lilydrainageparis.fr/4621B231-9788-4C52-A979-579DAAB08C68.png",
-    "description": "Drainage lymphatique brésilien, madérothérapie et massage Kobido à domicile en Seine-et-Marne (77), exclusivement auprès des femmes.",
+    "description": "Drainage lymphatique brésilien, madérothérapie signature, Kobido, Deep Release et Cupping Therapy à domicile en Seine-et-Marne (77), exclusivement auprès des femmes.",
     "areaServed": [
       "Messy",
       "Claye-Souilly",
@@ -870,145 +846,156 @@
       "Compans",
       "Fresnes-sur-Marne"
     ],
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "19:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "09:00",
+        "closes": "21:00"
+      }
+    ],
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
-      "name": "Prestations bien-être à domicile",
+      "name": "Soins à domicile",
       "itemListElement": [
         {
           "@type": "Offer",
+          "price": "70.00",
+          "priceCurrency": "EUR",
+          "description": "Une heure de soin, hors frais de déplacement. Zones adaptées aux besoins et au temps réservé ; corps entier non systématiquement inclus.",
           "itemOffered": {
             "@type": "Service",
-            "name": "Drainage lymphatique brésilien",
+            "name": "Drainage lymphatique brésilien signature",
             "url": "https://lilydrainageparis.fr/drainage-lymphatique-bresilien/"
           }
         },
         {
           "@type": "Offer",
+          "price": "70.00",
+          "priceCurrency": "EUR",
+          "description": "Une heure incluant quelques manœuvres préparatoires de drainage puis la madérothérapie, hors frais de déplacement. Corps entier non systématiquement inclus.",
           "itemOffered": {
             "@type": "Service",
-            "name": "Madérothérapie",
+            "name": "Madérothérapie signature",
             "url": "https://lilydrainageparis.fr/maderotherapie/"
           }
         },
         {
           "@type": "Offer",
+          "price": "70.00",
+          "priceCurrency": "EUR",
+          "description": "Massage visage et crâne de 45 minutes, hors frais de déplacement.",
           "itemOffered": {
             "@type": "Service",
             "name": "Massage Kobido",
             "url": "https://lilydrainageparis.fr/kobido/"
+          }
+        },
+        {
+          "@type": "Offer",
+          "price": "60.00",
+          "priceCurrency": "EUR",
+          "description": "Massage dos et nuque de 45 minutes, hors frais de déplacement.",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Deep Release",
+            "url": "https://lilydrainageparis.fr/deep-release/"
+          }
+        },
+        {
+          "@type": "Offer",
+          "price": "40.00",
+          "priceCurrency": "EUR",
+          "description": "30 minutes comprenant 15 minutes de massage de la zone choisie et 15 minutes de pose de ventouses, hors frais de déplacement.",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Cupping Therapy",
+            "url": "https://lilydrainageparis.fr/cupping-therapy/"
           }
         }
       ]
     }
   }
   </script>
-
 </head>
 
-
 <body>
-
   <main>
-
-
-    <!-- =====================
-         1. HERO
-    ====================== -->
-
+    <!-- 1. HERO -->
     <section class="hero">
-
       <img
         class="hero-image"
         src="4621B231-9788-4C52-A979-579DAAB08C68.png"
-        alt="Lily Drainage Paris - massage bien-être à domicile"
+        alt="Lily Drainage Paris — massage bien-être à domicile"
       >
 
       <div class="hero-overlay"></div>
 
       <div class="hero-content">
-
-        <nav class="hero-nav">
-
-  <a href="/">Accueil</a>
-
-  <a href="/drainage-lymphatique-bresilien/">
-    Drainage brésilien
-  </a>
-
-  <a href="/maderotherapie/">
-    Madérothérapie
-  </a>
-
-  <a href="/kobido/">
-    Kobido
-  </a>
-
-  <a href="/deep-release/">
-    Deep Release
-  </a>
-
-</nav>
+        <nav class="hero-nav" aria-label="Navigation principale">
+          <a href="/" aria-current="page">Accueil</a>
+          <a href="/drainage-lymphatique-bresilien/">Drainage brésilien</a>
+          <a href="/maderotherapie/">Madérothérapie</a>
+          <a href="/kobido/">Kobido</a>
+          <a href="/deep-release/">Deep Release</a>
+          <a href="/cupping-therapy/">Cupping Therapy</a>
+        </nav>
 
         <div class="brand">
-
-          <span class="brand-lily">
-            LILY
-          </span>
-
-          <span class="brand-paris">
-            Drainage Paris
-          </span>
-
+          <span class="brand-lily">LILY</span>
+          <span class="brand-paris">Drainage Paris</span>
         </div>
 
         <h1>
-          Drainage lymphatique & massages bien-être à domicile
+          Drainage lymphatique &amp; massages bien-être à domicile
         </h1>
 
         <p class="intro">
-          Des soins ciblés, pensés pour votre corps, chez vous.
+          Des soins personnalisés, pensés pour votre corps, chez vous.
         </p>
 
         <p class="price">
-          À partir de 50 €
+          Soins à partir de 40 €
+        </p>
+
+        <p class="hero-price-note">
+          Tarifs hors frais de déplacement.
         </p>
 
         <a class="cta" href="#contact">
           Demander un devis ou un rendez-vous
         </a>
-
       </div>
-
     </section>
 
-
-    <!-- =====================
-         2. PRESTATIONS
-    ====================== -->
-
+    <!-- 2. PRESTATIONS -->
     <section class="services" id="prestations">
-
       <div class="services-header">
-
-        <span class="section-label">
-          Les soins
-        </span>
+        <span class="section-label">Les soins</span>
 
         <h2>
           Des gestes précis.<br>
           Une approche sur mesure.
         </h2>
-
       </div>
 
-
       <div class="services-list">
-
-
-        <!-- 01 - DRAINAGE BRÉSILIEN -->
-
+        <!-- 01. DRAINAGE BRÉSILIEN -->
         <article class="service">
-
           <img
             class="service-image"
             src="IMG_6292.jpeg"
@@ -1017,18 +1004,30 @@
           >
 
           <div class="service-content">
-
-            <span class="service-number">
-              01
-            </span>
+            <span class="service-number">01</span>
 
             <h3>
               Drainage lymphatique brésilien
             </h3>
 
             <p>
-              Un massage manuel dynamique du corps, réalisé selon
-              un protocole de bien-être personnalisé.
+              Un soin signature inspiré de la méthode Renata Franca,
+              associant des manœuvres de drainage à des techniques
+              complémentaires adaptées à vos besoins.
+            </p>
+
+            <p class="service-price">
+              1 h · 70 €*
+            </p>
+
+            <p class="service-note">
+              * Les zones travaillées sont adaptées à vos besoins et au temps
+              réservé. Une séance d’une heure ne comprend pas systématiquement
+              le corps entier.
+            </p>
+
+            <p class="service-note">
+              Tarif hors frais de déplacement.
             </p>
 
             <a
@@ -1037,45 +1036,11 @@
             >
               Découvrir le drainage brésilien →
             </a>
-
           </div>
-
         </article>
 
-
-        <!-- 02 - POST-OPÉRATOIRE -->
-
-        <article class="service service-text-only">
-
-          <div class="service-content">
-
-            <span class="service-number">
-              02
-            </span>
-
-            <h3>
-              Drainage lymphatique post-opératoire
-            </h3>
-
-            <p>
-              Un accompagnement manuel doux, proposé dans un cadre
-              de bien-être et adapté à votre situation.
-            </p>
-
-            <p class="service-note">
-              Cette prestation ne se substitue pas au suivi médical
-              ou chirurgical.
-            </p>
-
-          </div>
-
-        </article>
-
-
-        <!-- 03 - MADÉROTHÉRAPIE -->
-
+        <!-- 02. MADÉROTHÉRAPIE -->
         <article class="service">
-
           <img
             class="service-image"
             src="IMG_6296.jpeg"
@@ -1084,36 +1049,45 @@
           >
 
           <div class="service-content">
-
-            <span class="service-number">
-              03
-            </span>
+            <span class="service-number">02</span>
 
             <h3>
-              Madérothérapie
+              Madérothérapie signature
             </h3>
 
             <p>
-              Une technique de massage utilisant des instruments
-              en bois, associée à des manœuvres manuelles ciblées.
+              Quelques manœuvres préparatoires de drainage inspirées
+              de la méthode Renata Franca, avant le travail
+              avec les accessoires en bois.
             </p>
 
-            <a
-              class="service-link"
-              href="/maderotherapie/"
-            >
+            <p class="service-note">
+              Ce temps préparatoire est inclus dans l’heure de soin
+              et ne constitue pas un drainage complet.
+            </p>
+
+            <p class="service-price">
+              1 h · 70 €*
+            </p>
+
+            <p class="service-note">
+              * Les zones travaillées sont adaptées à vos besoins et au temps
+              réservé. Une séance d’une heure ne comprend pas systématiquement
+              le corps entier.
+            </p>
+
+            <p class="service-note">
+              Tarif hors frais de déplacement.
+            </p>
+
+            <a class="service-link" href="/maderotherapie/">
               Découvrir la madérothérapie →
             </a>
-
           </div>
-
         </article>
 
-
-        <!-- 04 - KOBIDO -->
-
+        <!-- 03. KOBIDO -->
         <article class="service">
-
           <img
             class="service-image"
             src="IMG_6293.jpeg"
@@ -1122,86 +1096,109 @@
           >
 
           <div class="service-content">
-
-            <span class="service-number">
-              04
-            </span>
+            <span class="service-number">03</span>
 
             <h3>
               Kobido
             </h3>
 
             <p>
-              Un massage facial japonais rythmé, alternant gestes
+              Un massage du visage et du crâne alternant gestes
               précis, pressions et mouvements enveloppants.
             </p>
 
-            <a
-              class="service-link"
-              href="/kobido/"
-            >
+            <p class="service-price">
+              45 min · 70 €
+            </p>
+
+            <p class="service-note">
+              Tarif hors frais de déplacement.
+            </p>
+
+            <a class="service-link" href="/kobido/">
               Découvrir le Kobido →
             </a>
-
           </div>
-
         </article>
 
-<!-- 05 - DEEP RELEASE -->
+        <!-- 04. DEEP RELEASE -->
+        <article class="service">
+          <img
+            class="service-image"
+            src="CE25CED4-3263-415A-A9C6-B705254B13AC.png"
+            alt="Massage Deep Release du dos, des trapèzes et de la nuque à domicile"
+            loading="lazy"
+          >
 
-<article class="service">
+          <div class="service-content">
+            <span class="service-number">04</span>
 
-  <img
-    class="service-image"
-    src="CE25CED4-3263-415A-A9C6-B705254B13AC.png"
-    alt="Massage Deep Release du dos, des trapèzes et de la nuque à domicile"
-    loading="lazy"
-  >
+            <h3>
+              Deep Release
+            </h3>
 
-  <div class="service-content">
+            <p>
+              Un massage appuyé et ciblé du dos, des trapèzes et de la nuque,
+              selon ma propre méthode. L’intensité est adaptée
+              à votre confort.
+            </p>
 
-    <span class="service-number">
-      05
-    </span>
+            <p class="service-price">
+              45 min · 60 €
+            </p>
 
-    <h3>
-      Deep Release
-    </h3>
+            <p class="service-note">
+              Tarif hors frais de déplacement.
+            </p>
 
-    <p>
-      Un massage profond et ciblé du dos, des trapèzes et de la nuque,
-      pensé pour libérer les tensions et favoriser un relâchement intense.
-    </p>
+            <a class="service-link" href="/deep-release/">
+              Découvrir le Deep Release →
+            </a>
+          </div>
+        </article>
 
-    <a
-      class="service-link"
-      href="/deep-release/"
-    >
-      Découvrir le Deep Release →
-    </a>
+        <!-- 05. CUPPING THERAPY -->
+        <article class="service">
+          <img
+            class="service-image"
+            src="IMG_6861.jpeg"
+            alt="Pose de ventouses sur le dos lors d’une séance de Cupping Therapy"
+            loading="lazy"
+          >
 
-  </div>
+          <div class="service-content">
+            <span class="service-number">05</span>
 
-</article>
-        
+            <h3>
+              Cupping Therapy
+            </h3>
+
+            <p>
+              Une séance associant 15 minutes de massage de la zone choisie
+              et 15 minutes de pose de ventouses.
+            </p>
+
+            <p class="service-price">
+              30 min · 40 €
+            </p>
+
+            <p class="service-note">
+              Tarif hors frais de déplacement.
+            </p>
+
+            <a class="service-link" href="/cupping-therapy/">
+              Découvrir la Cupping Therapy →
+            </a>
+          </div>
+        </article>
       </div>
-
     </section>
 
-
-    <!-- =====================
-         3. À DOMICILE
-    ====================== -->
-
+    <!-- 3. À DOMICILE -->
     <section class="home-service" id="domicile">
-
       <div class="home-service-inner">
-
         <div class="home-service-intro">
-
-          <span class="section-label">
-            À domicile
-          </span>
+          <span class="section-label">À domicile</span>
 
           <h2>
             Le soin vient à vous.
@@ -1209,7 +1206,8 @@
 
           <p>
             Lily Drainage Paris propose des prestations de drainage
-            lymphatique et de massage bien-être directement à votre domicile.
+            lymphatique et de massage bien-être directement à votre domicile,
+            exclusivement auprès des femmes.
           </p>
 
           <p>
@@ -1217,14 +1215,14 @@
             de la prestation choisie et du temps de déplacement.
           </p>
 
+          <p>
+            Les tarifs des soins sont indiqués hors frais de déplacement.
+            Le montant total vous est précisé avant la réservation.
+          </p>
         </div>
 
-
         <div class="home-service-zone">
-
-          <span class="zone-title">
-            Zone de déplacement
-          </span>
+          <span class="zone-title">Zone de déplacement</span>
 
           <p>
             Messy, Claye-Souilly, Mitry-Mory, Villeparisis,
@@ -1234,38 +1232,24 @@
           <p class="zone-note">
             Autres communes : demande de devis selon la distance.
           </p>
-
         </div>
-
       </div>
-
     </section>
 
-
-    <!-- =====================
-         4. À PROPOS
-    ====================== -->
-
+    <!-- 4. À PROPOS -->
     <section class="about" id="a-propos">
-
       <div class="about-inner">
-
         <div class="about-photo-wrap">
-
           <img
             class="about-photo"
             src="6DF0BCDD-A136-4073-8733-D8F446C83BCB.png"
             alt="Lily, praticienne en massage bien-être"
             loading="lazy"
           >
-
         </div>
 
         <div class="about-content">
-
-          <span class="about-label">
-            À propos de Lily
-          </span>
+          <span class="about-label">À propos de Lily</span>
 
           <h2>
             Le soin du corps,<br>
@@ -1284,56 +1268,35 @@
             s’inscrivent exclusivement dans une démarche de bien-être
             et ne constituent pas des actes médicaux ou infirmiers.
           </p>
-
         </div>
-
       </div>
-
     </section>
 
-
-    <!-- =====================
-         5. AVIS CLIENTES
-    ====================== -->
-
+    <!-- 5. AVIS CLIENTES -->
     <section class="reviews" id="avis">
-
       <div class="reviews-inner">
-
         <div class="reviews-header">
-
-          <span class="section-label">
-            Vos mots
-          </span>
+          <span class="section-label">Vos mots</span>
 
           <h2>
             Elles en parlent<br>
             mieux que nous.
           </h2>
-
         </div>
 
-
         <div class="reviews-slider">
-
           <button
+            type="button"
             class="review-arrow review-prev"
             aria-label="Avis précédents"
           >
             &#8592;
           </button>
 
-
           <div class="reviews-window">
-
             <div class="reviews-track">
-
-
               <article class="review-card">
-
-                <div class="review-stars">
-                  ★★★★★
-                </div>
+                <div class="review-stars">★★★★★</div>
 
                 <p>
                   « Très belle expérience. Le soin était à la fois tonique
@@ -1344,15 +1307,10 @@
                 <span class="review-author">
                   Sophie — Claye-Souilly
                 </span>
-
               </article>
 
-
               <article class="review-card">
-
-                <div class="review-stars">
-                  ★★★★★
-                </div>
+                <div class="review-stars">★★★★★</div>
 
                 <p>
                   « J’ai beaucoup apprécié le fait que la prestation se fasse
@@ -1363,15 +1321,10 @@
                 <span class="review-author">
                   Mélanie — Mitry-Mory
                 </span>
-
               </article>
 
-
               <article class="review-card">
-
-                <div class="review-stars">
-                  ★★★★★
-                </div>
+                <div class="review-stars">★★★★★</div>
 
                 <p>
                   « Première séance de drainage et très bonne expérience.
@@ -1382,15 +1335,10 @@
                 <span class="review-author">
                   Laura — Villeparisis
                 </span>
-
               </article>
 
-
               <article class="review-card">
-
-                <div class="review-stars">
-                  ★★★★★
-                </div>
+                <div class="review-stars">★★★★★</div>
 
                 <p>
                   « Séance de madérothérapie très agréable. J’ai
@@ -1401,15 +1349,10 @@
                 <span class="review-author">
                   Nathalie — Claye-Souilly
                 </span>
-
               </article>
 
-
               <article class="review-card">
-
-                <div class="review-stars">
-                  ★★★★★
-                </div>
+                <div class="review-stars">★★★★★</div>
 
                 <p>
                   « J’ai testé le Kobido et j’ai adoré. Le massage est à la
@@ -1420,15 +1363,10 @@
                 <span class="review-author">
                   Élodie — Mitry-Mory
                 </span>
-
               </article>
 
-
               <article class="review-card">
-
-                <div class="review-stars">
-                  ★★★★★
-                </div>
+                <div class="review-stars">★★★★★</div>
 
                 <p>
                   « Une praticienne douce, attentive et très professionnelle.
@@ -1439,42 +1377,27 @@
                 <span class="review-author">
                   Camille — Messy
                 </span>
-
               </article>
-
             </div>
-
           </div>
 
-
           <button
+            type="button"
             class="review-arrow review-next"
             aria-label="Avis suivants"
           >
             &#8594;
           </button>
-
         </div>
 
-
-        <div class="reviews-dots"></div>
-
+        <div class="reviews-dots" aria-label="Choisir une page d’avis"></div>
       </div>
-
     </section>
 
-
-    <!-- =====================
-         6. CONTACT
-    ====================== -->
-
+    <!-- 6. CONTACT -->
     <section class="contact" id="contact">
-
       <div class="contact-inner">
-
-        <span class="section-label">
-          Rendez-vous
-        </span>
+        <span class="section-label">Rendez-vous</span>
 
         <h2>
           Prenez un moment<br>
@@ -1484,15 +1407,26 @@
         <p class="contact-intro">
           Une question, une demande de devis ou envie de réserver
           votre prochain soin à domicile ?
+          Indiquez-moi votre ville, le soin souhaité et vos disponibilités.
         </p>
 
         <p class="contact-price">
-          Prestations à partir de 50 €
+          Soins à partir de 40 €
+        </p>
+
+        <p class="contact-note">
+          Tarifs hors frais de déplacement.
+        </p>
+
+        <p class="contact-hours">
+          <strong>Rendez-vous à domicile</strong><br>
+          Lundi, mardi, jeudi et vendredi : 9h–19h<br>
+          Samedi et dimanche : 9h–21h
         </p>
 
         <a
           class="contact-button"
-          href="https://wa.me/33602743757?text=Bonjour%2C%20je%20souhaiterais%20avoir%20des%20informations%20concernant%20vos%20prestations%20%C3%A0%20domicile."
+          href="https://wa.me/33602743757?text=Bonjour%20Lily%2C%20je%20souhaiterais%20avoir%20des%20informations%20ou%20r%C3%A9server%20un%20soin%20%C3%A0%20domicile.%20Ma%20ville%20est%20..."
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -1502,40 +1436,33 @@
         <p class="contact-whatsapp">
           Contact via WhatsApp
         </p>
-
       </div>
-
     </section>
-
   </main>
 
-
-  <!-- =====================
-       FOOTER
-  ====================== -->
-
+  <!-- FOOTER -->
   <footer class="footer">
-
     <div class="footer-inner">
-
       <div class="footer-brand">
-
-        <span class="footer-lily">
-          LILY
-        </span>
-
-        <span class="footer-paris">
-          Drainage Paris
-        </span>
-
+        <span class="footer-lily">LILY</span>
+        <span class="footer-paris">Drainage Paris</span>
       </div>
 
       <p class="footer-location">
-        Drainage lymphatique & massages bien-être à domicile
+        Drainage lymphatique &amp; massages bien-être à domicile<br>
+        Seine-et-Marne (77) · Femmes uniquement
       </p>
 
-      <div class="footer-bottom">
+      <nav class="footer-nav" aria-label="Navigation de pied de page">
+        <a href="/" aria-current="page">Accueil</a>
+        <a href="/drainage-lymphatique-bresilien/">Drainage brésilien</a>
+        <a href="/maderotherapie/">Madérothérapie</a>
+        <a href="/kobido/">Kobido</a>
+        <a href="/deep-release/">Deep Release</a>
+        <a href="/cupping-therapy/">Cupping Therapy</a>
+      </nav>
 
+      <div class="footer-bottom">
         <p>
           © 2026 Lily Drainage Paris — Tous droits réservés.
         </p>
@@ -1543,16 +1470,12 @@
         <a href="#" class="footer-legal">
           Mentions légales
         </a>
-
       </div>
-
     </div>
-
   </footer>
 
-
+  <!-- CARROUSEL DES AVIS -->
   <script>
-
     const track = document.querySelector(".reviews-track");
     const cards = document.querySelectorAll(".review-card");
     const prevButton = document.querySelector(".review-prev");
@@ -1562,26 +1485,22 @@
     let currentIndex = 0;
     let autoSlide;
 
-
     function visibleCards() {
       return window.innerWidth >= 768 ? 2 : 1;
     }
-
 
     function totalPages() {
       return Math.ceil(cards.length / visibleCards());
     }
 
-
     function createDots() {
-
       dotsContainer.innerHTML = "";
 
       for (let i = 0; i < totalPages(); i++) {
-
         const dot = document.createElement("button");
-
+        dot.type = "button";
         dot.classList.add("review-dot");
+        dot.setAttribute("aria-label", `Afficher la page ${i + 1} des avis`);
 
         if (i === currentIndex) {
           dot.classList.add("active");
@@ -1595,26 +1514,19 @@
 
         dotsContainer.appendChild(dot);
       }
-
     }
-
 
     function updateSlider() {
-
-      const cardsVisible = visibleCards();
-
-      track.style.transform =
-        `translateX(-${currentIndex * 100}%)`;
+      track.style.transform = `translateX(-${currentIndex * 100}%)`;
 
       document.querySelectorAll(".review-dot").forEach((dot, index) => {
-        dot.classList.toggle("active", index === currentIndex);
+        const active = index === currentIndex;
+        dot.classList.toggle("active", active);
+        dot.setAttribute("aria-pressed", String(active));
       });
-
     }
 
-
     function nextSlide() {
-
       currentIndex++;
 
       if (currentIndex >= totalPages()) {
@@ -1622,12 +1534,9 @@
       }
 
       updateSlider();
-
     }
 
-
     function previousSlide() {
-
       currentIndex--;
 
       if (currentIndex < 0) {
@@ -1635,49 +1544,36 @@
       }
 
       updateSlider();
-
     }
-
 
     function startAutoSlide() {
       autoSlide = setInterval(nextSlide, 5500);
     }
-
 
     function restartAutoSlide() {
       clearInterval(autoSlide);
       startAutoSlide();
     }
 
-
     nextButton.addEventListener("click", () => {
       nextSlide();
       restartAutoSlide();
     });
-
 
     prevButton.addEventListener("click", () => {
       previousSlide();
       restartAutoSlide();
     });
 
-
     window.addEventListener("resize", () => {
-
       currentIndex = 0;
-
       createDots();
       updateSlider();
-
     });
-
 
     createDots();
     updateSlider();
     startAutoSlide();
-
   </script>
-
 </body>
-
 </html>
